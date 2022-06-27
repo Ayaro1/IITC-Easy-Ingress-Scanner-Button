@@ -1,5 +1,7 @@
 # IITC - Easy Ingress Scanner Button
 
+## [Install / Download](https://github.com/Ayaro1/IITC-Easy-Ingress-Scanner-Button/raw/main/EasyIngressScannerButton.user.js "Install / Download")
+
 Small IITC plugin for use with IITC Mobile to quickly open remote portal view in the scanner with one single tap on the screen.
 
 It adds this button to the portal details window:
