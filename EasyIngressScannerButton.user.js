@@ -2,7 +2,7 @@
 // @id              Easy-Ingress-Scanner-Button
 // @name            IITC Plugin: Easy Ingress Scanner Button
 // @category        Info
-// @version         0.1
+// @version         0.2
 // @namespace       https://github.com/Ayaro1/IITC-Easy-Ingress-Scanner-Button/
 // @updateURL       https://github.com/Ayaro1/IITC-Easy-Ingress-Scanner-Button/raw/main/EasyIngressScannerButton.user.js
 // @downloadURL     https://github.com/Ayaro1/IITC-Easy-Ingress-Scanner-Button/raw/main/EasyIngressScannerButton.user.js
@@ -28,7 +28,7 @@ function wrapper(plugin_info) {
     plugin_info.buildName = 'easyScannerButton';
 
     // Datetime-derived version of the plugin
-    plugin_info.dateTimeVersion = '20220627120700';
+    plugin_info.dateTimeVersion = '20220627125800';
 
     // ID/name of the plugin
     plugin_info.pluginId = 'easyScannerButton';
@@ -41,7 +41,7 @@ function wrapper(plugin_info) {
     window.plugin.easyScannerButton.icon = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABemlDQ1BJQ0MgUHJvZmlsZQAAKM+lkDFLw1AUhU9bpaKVDjo4OGQoCtKC1MVR61CQUkqtYNUlSZNWSNqQtIg4Orh26KLiYhX/gW7iHxAEQZ1c7OygIIKUeF5SKIgO4g333Y/z7n157wDBpqGazsAsYFbrdj6dktaK61K4gwBCXk7LqmMt5nIZ/Brv9+xk3CXEWfhbjJQ0RwUCQ+R51bLr5AVydrtuCW6Sx9WKXCKfkuM2L0i+Fbric0dw2ecPwXYhv8S3RchS2ee4YMVn8RZJrdgm2SDHTKOh9u4jXhLRqqsrrJNeOsgjjRQkKGhgCwbqSLBW6dnPc0lvLosaZ1SuFnZgc6KMCmfjVBs8VWPVqWv8DHYwhPffPXX0uaT/h8gyMPjsum8zQPgI6O677ueJ63bbQOgRuG7152st2vlCvdnXYsdAdA+4uOpryhlwSY8nnizZlj0pxAzqOvB6DowWgTF6Pbzx333f794+2g9AYRfI3AAHh8AU+6ObX6okdIVZiIabAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADi0lEQVQ4T32Ua2yTZRTHf+/by7audbRsbMW5FUbYxrrEGVScQ0bwEhNNQOeHIRc/8EmCxjjilA8aVAIxcRmihmAcTqIYDcagGKZZBE38ILIgyAiZbMAuZYNdurVd2/fiedqZGEJ23jzvc57mnP/z/5/znmqvN35qM49pWna3540CfW6/oxlpm+G+m0T6JzCN+ZH0zFX/W5pQSCUN4lNJXB6bj3t30PbnNjR3msRUinTSzLK8Pe+1Rz4RT3x5dF1n5J9xVqwu474nl+Ir8NLVeQavL4+H1tcQnYhy9sQVLv8+RPEyP7alQLK5WsvqQ7am2VgWAnKTlw5tIBaNcfqLvxk4f4P69dU4XW5Of32OinuDrNkSxuVw8+GLxylZEkCT4iiC2isNB21NdxAdm+Hgxe3sevwwfT2j+AKeTJB3YR66aImOxpC7mB6NU9NYys4jG3h1VQdevyejzmmb4BBG8VicP77vZ/DSBFv3rONWJEpBkQd3jkvSLVIpk8nINIWlAT5742cudI8wGzfw+UWaSHSmRZNlaRgC5rnLzeD1KRqeqSLfn8veTccywIpKRV0ROzueJXL1Fm3b4uR6XRhCJSUglmA4LVUocUzTlmWy6G4fbzV9Rd3aECsfXU5dY1JRljq46Xizi56fBghIjKUADLlBdsVIV0WWHVO9JNyUW24MRCmvLqZ9x3FhMEOkb5qPWk6wNLyYseHpDEg21sQQXx31lCn6DUibGrF4mtisTe3aMjr3nGJf12bO9lzj3Pkh3u/ewuF3ugmvKWMmYRGPJ0WWLnmQFDXCSBBFXiKZpPLBEl7Y/TD3VBYz2D/JX78N8lhTFc3bH+DUt5cYHU4QWhFk89urqKwPMptIZ3JVjXRFy0gb5Hs8LPDncPXCGAdaT1Jc7ufIvl956vmVhOtDHDtwhkDQS3vrj0xenyU/z4nbIwU3zKw0E9Epy1foocG9m6r7Q7z3XTMLSjyk7DQtT3/JrqajGb+o1Mv+k5tYXBFgXf5efAtzpXOCIEvbGP5A2qbGxcbh0BnqH6eitojG52pYsryI1uajOJzw7ufNXOkd4Zdvehm4OE4wVIAl9cmMhyr9xtp2wZCDfMYZrTJv6uMzZHAV37YftmJIQ15+ohO3W+TIcuU4Mp1Tw6tyVQcFaL/y7mgq5trlMRkVjbJlhSp+7ncFMneYs3n/j1RsqHoR5SLxPxBlt4MA/AudzbDXyxzongAAAABJRU5ErkJggg==';
 
     window.plugin.easyScannerButton.addScannerButton = function() {
-      easyScannerButtonURL = 'https://link.ingress.com/?link=https%3A%2F%2Fintel.ingress.com%2Fportal%2F' + window.selectedPortal + '&apn=com.nianticproject.ingress&isi=576505181&ibi=com.google.ingress&ifl=https%3A%2F%2Fapps.apple.com%2Fapp%2Fingress%2Fid576505181&ofl=https%3A%2F%2Fintel.ingress.com%2Fintel%3Fpll%3D' + window.portals[window.selectedPortal]._latlng.lat + '%2C' + window.portals[window.selectedPortal]._latlng.lng;
+      easyScannerButtonURL = 'https://link.ingress.com/?link=https://intel.ingress.com/portal/' + window.selectedPortal + '&apn=com.nianticproject.ingress&isi=576505181&ibi=com.google.ingress&ifl=https://apps.apple.com/app/ingress/id576505181&ofl=https://intel.ingress.com/intel?pll=' + window.portals[window.selectedPortal]._latlng.lat + ',' + window.portals[window.selectedPortal]._latlng.lng;
       $('.linkdetails').append('<aside><a href="' + easyScannerButtonURL + '" id="Easy-Ingress-Scanner-Button"><img src="'+ window.plugin.easyScannerButton.icon +'""></a></aside>');
     }
 
