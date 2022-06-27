@@ -2,7 +2,7 @@
 // @id              Easy-Ingress-Scanner-Button
 // @name            IITC Plugin: Easy Ingress Scanner Button
 // @category        Info
-// @version         0.1
+// @version         0.2
 // @namespace       https://github.com/Ayaro1/IITC-Easy-Ingress-Scanner-Button/
 // @updateURL       https://github.com/Ayaro1/IITC-Easy-Ingress-Scanner-Button/raw/main/EasyIngressScannerButton.user.js
 // @downloadURL     https://github.com/Ayaro1/IITC-Easy-Ingress-Scanner-Button/raw/main/EasyIngressScannerButton.user.js
@@ -28,7 +28,7 @@ function wrapper(plugin_info) {
     plugin_info.buildName = 'easyScannerButton';
 
     // Datetime-derived version of the plugin
-    plugin_info.dateTimeVersion = '20220627120700';
+    plugin_info.dateTimeVersion = '20220627125800';
 
     // ID/name of the plugin
     plugin_info.pluginId = 'easyScannerButton';
